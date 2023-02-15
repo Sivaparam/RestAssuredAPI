@@ -1,0 +1,206 @@
+suiteXmlPath: "/Users/ranjani/Library/Caches/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml"
+[TestNG] Running:
+  /Users/ranjani/Library/Caches/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml
+
+Get connection for route {s}->https://datausa.io:443
+Connecting to datausa.io:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/data?drilldowns=Nation&measures=Population HTTP/1.1
+ >> "GET /api/data?drilldowns=Nation&measures=Population HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: datausa.io[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/data?drilldowns=Nation&measures=Population HTTP/1.1
+>> Accept: */*
+>> Host: datausa.io
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Wed, 15 Feb 2023 05:41:01 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "x-dns-prefetch-control: off[\r][\n]"
+ << "strict-transport-security: max-age=15552000; includeSubDomains[\r][\n]"
+ << "x-download-options: noopen[\r][\n]"
+ << "x-content-type-options: nosniff[\r][\n]"
+ << "x-xss-protection: 1; mode=block[\r][\n]"
+ << "content-language: en[\r][\n]"
+ << "etag: W/"5de-nIC6PX3cEGifOOBAdlSmcCVN9zA"[\r][\n]"
+ << "vary: Accept-Encoding[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "last-modified: Mon, 05 Dec 2022 21:02:20 GMT[\r][\n]"
+ << "x-cache-status: HIT[\r][\n]"
+ << "x-frame-options: SAMEORIGIN[\r][\n]"
+ << "access-control-allow-origin: *[\r][\n]"
+ << "access-control-allow-credentials: true[\r][\n]"
+ << "access-control-allow-methods: GET, POST, OPTIONS[\r][\n]"
+ << "access-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type[\r][\n]"
+ << "x-cache-key: GET/api/data?drilldowns=Nation&measures=Population[\r][\n]"
+ << "Cache-Control: max-age=1800[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 794413[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qtbVFkEAf%2F%2B%2F6fpRBoXSHV1IFUVBogtq1%2BCkz9dfC%2FWJ9UITQ6d%2BTeZJevWx9cqmaQ%2FvXbJXCua4t6i2BRTtNmKCate5Wy5GrJwNceL5c0kmd7zgyUTrI7NgwaA%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 799bb64d69e2b0d9-ATL[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Wed, 15 Feb 2023 05:41:01 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< x-dns-prefetch-control: off
+<< strict-transport-security: max-age=15552000; includeSubDomains
+<< x-download-options: noopen
+<< x-content-type-options: nosniff
+<< x-xss-protection: 1; mode=block
+<< content-language: en
+<< etag: W/"5de-nIC6PX3cEGifOOBAdlSmcCVN9zA"
+<< vary: Accept-Encoding
+<< Content-Encoding: gzip
+<< last-modified: Mon, 05 Dec 2022 21:02:20 GMT
+<< x-cache-status: HIT
+<< x-frame-options: SAMEORIGIN
+<< access-control-allow-origin: *
+<< access-control-allow-credentials: true
+<< access-control-allow-methods: GET, POST, OPTIONS
+<< access-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+<< x-cache-key: GET/api/data?drilldowns=Nation&measures=Population
+<< Cache-Control: max-age=1800
+<< CF-Cache-Status: HIT
+<< Age: 794413
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qtbVFkEAf%2F%2B%2F6fpRBoXSHV1IFUVBogtq1%2BCkz9dfC%2FWJ9UITQ6d%2BTeZJevWx9cqmaQ%2FvXbJXCua4t6i2BRTtNmKCate5Wy5GrJwNceL5c0kmd7zgyUTrI7NgwaA%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Server: cloudflare
+<< CF-RAY: 799bb64d69e2b0d9-ATL
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "1e5[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5][0x94]M[0x8b][0xdb]0[0x10][0x86][0xff][0x8a][0xd0][0xa9][0x85]$[0x96]?[0xe4][0x8f][0xdc]v[0xb3]=[0xf4]R[\n]"
+ << "n[0xe]%[0x4][0xa3][0xd8]j"[0x1a]K[0xc6][0x92][0x12]L[0xc8][0xef][0xc8][0xf1]"
+ << "fM}[0xe8][0xa1][0x18]_[0xa4][0x99]y[0xdf]y42[0xba][0xe1][0x8a][0x19][0x86][0xd7][0xbb][0x1b][0xfe][0xfa][0x86][0xbe]1#[0x94][0xc4]kL|B[0xc8]6[0xc7][0xb][0xfc][0xc]m[0xa5]0[0xbc]B[0xb9]a[0x86]kH@[0xf9]O[0xce]Z[0xbc][0xe]H@[0x16][0xf8][0xb1][0xc6]n[0x3][0xc9][0xef][0xaa][0xb1][0xe7]A[0x19][0x6]1[0x8d][0xb3][0x90][0xa4][0xb][0x9c][0x9f][0xed][0xf1][0xa3][0x89][0xed][0x1d][0x97][0xfa][0xe1]x_[0xfc][0xf][0x82][0x9f][0x8d][0x10][0xfc]l[0x82][0x10][0xc5]Y[0x92]dtV[0x84]t[0x8c][0x90]N[0x10][0x82][0x8c][0x84][0xf0][0xcd][0x8a][0x90][0x8c][0x11][0x92][0x9][0x2][0x98]E[0x11]IfE[0x88][0xc7][0x8][0xf1][0xdf][0x8]~Ji[0xea][0xc7][0xc1][0xac][0x8]t[0x8c]@'[0x8]1[0xf5])[0x9][0xfc]Y[0x11][0xa2]1B4A[0x88]|[0x92][0x90]4[0x9a][0x15]![0x1c]#[0x84][0x13][0x4][0x9f][0x86]1[0xcd][0xfe][0x85][0xb0]_`[0xad]l[[0xf2][0xfe][0x89][0xa8]9[0xd3][0xb6][0x85][0xf8]z7v[0x83]"&[0xa5]2[0xfd][0xe][0x92][0xb7]ASHV[0x83][0x10]o[0xb8][0xd4]V[0xa3]W[0x90]2[0x8b][0xdf][0x1d][0x8b][0x8a][0xeb][0xb2][0x15][0xcd][0xd0][0xf8][0xc7][0x89][0xa3][0x97][0x9a][0xb7][0xa2]d[0x12]mT];[0x92][0xe][0xe5][0xb6][0xbd][0xf0][0xe]}z[0xd9][0xe4][0x9f][0x91][0xd0][0xa8]T[0xb2][0xb2][0xa5];[0xf4][0xa1]C[0x6]4[0xdb][0x1c][\r][0xfe]LVHsi[0x90]Q[0x88][0xa1]F[0xb5][0xce][0x19][0xa9]_}Y[0xf3][0xc4]E[0xfc][0xc2][0xdb][0xe]u0[0x9b][0x15][0xc0][0xb8][0xf7]Os[0xf3][0xce][\n]"
+ << "}[0x10]][0xba]$[0xfa][0xa2][0x8d][0xa8]a[0xc][0xa3][0xa2][0xb3][0x90][0xbf][0xa1][0xe8]dL[0xb3][0xf6][0xbc][0xeb][0xf5][0xba]*[0xfb][0xde][0xab][0xa3][0xba]xM[0xab][0x8e]-[0xab][0xf5]R[0xf7][0xcc][0xda]c[0xa5][0xf6]@l[0xd8][0xe1][0xcc][0xb]Q[0x81][0xf0][0xd5][0xdd][0xa1][0xbb][0xb][0xa3][0x1a]QB[0xe0]M[0x0][0x8c][0x86][0x83][0xba][0xb1][0xd8][0xc3]3[0xcc]k[0xe7][0xd5][0x9c]D[0xe9][0xfe][0x3]<[0xc0][0x81]a[0xd1][0x1d][0xb][0x3][0xa3]>[0x17][0x1f]'*[0xe8]C[\r][0xbc][0xc6][0xe]w[0xb0][0xdb][0xdf][0xf7][0xf7]?F$:[0xc9][0xde][0x5][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2c0b4c83
+Connection can be kept alive indefinitely
+Response Data is[{ID Nation=01000US, Nation=United States, ID Year=2020, Year=2020, Population=326569308, Slug Nation=united-states}, {ID Nation=01000US, Nation=United States, ID Year=2019, Year=2019, Population=324697795, Slug Nation=united-states}, {ID Nation=01000US, Nation=United States, ID Year=2018, Year=2018, Population=322903030, Slug Nation=united-states}, {ID Nation=01000US, Nation=United States, ID Year=2017, Year=2017, Population=321004407, Slug Nation=united-states}, {ID Nation=01000US, Nation=United States, ID Year=2016, Year=2016, Population=318558162, Slug Nation=united-states}, {ID Nation=01000US, Nation=United States, ID Year=2015, Year=2015, Population=316515021, Slug Nation=united-states}, {ID Nation=01000US, Nation=United States, ID Year=2014, Year=2014, Population=314107084, Slug Nation=united-states}, {ID Nation=01000US, Nation=United States, ID Year=2013, Year=2013, Population=311536594, Slug Nation=united-states}]
+Year details[2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013]
+Population details[326569308, 324697795, 322903030, 321004407, 318558162, 316515021, 314107084, 311536594]
+Year is present
+Population is present
+suiteXmlPath: "/Users/ranjani/Library/Caches/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml"
+[TestNG] Running:
+  /Users/ranjani/Library/Caches/JetBrains/IdeaIC2022.3/temp-testng-customsuite.xml
+
+Get connection for route {s}->https://datausa.io:443
+Connecting to datausa.io:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/data?drilldowns=Nation&measures=Population HTTP/1.1
+ >> "GET /api/data?drilldowns=Nation&measures=Population HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: datausa.io[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/data?drilldowns=Nation&measures=Population HTTP/1.1
+>> Accept: */*
+>> Host: datausa.io
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Wed, 15 Feb 2023 05:42:44 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "x-dns-prefetch-control: off[\r][\n]"
+ << "strict-transport-security: max-age=15552000; includeSubDomains[\r][\n]"
+ << "x-download-options: noopen[\r][\n]"
+ << "x-content-type-options: nosniff[\r][\n]"
+ << "x-xss-protection: 1; mode=block[\r][\n]"
+ << "content-language: en[\r][\n]"
+ << "etag: W/"5de-nIC6PX3cEGifOOBAdlSmcCVN9zA"[\r][\n]"
+ << "vary: Accept-Encoding[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "last-modified: Mon, 05 Dec 2022 21:02:20 GMT[\r][\n]"
+ << "x-cache-status: HIT[\r][\n]"
+ << "x-frame-options: SAMEORIGIN[\r][\n]"
+ << "access-control-allow-origin: *[\r][\n]"
+ << "access-control-allow-credentials: true[\r][\n]"
+ << "access-control-allow-methods: GET, POST, OPTIONS[\r][\n]"
+ << "access-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type[\r][\n]"
+ << "x-cache-key: GET/api/data?drilldowns=Nation&measures=Population[\r][\n]"
+ << "Cache-Control: max-age=1800[\r][\n]"
+ << "CF-Cache-Status: HIT[\r][\n]"
+ << "Age: 98757[\r][\n]"
+ << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wT8bIfmhk7Ttjw1tH2eLdQaovirN3LKjhi1GLf34JmIk%2FreD7dqjOfCKzwAcQxP%2BAqj6jARKUmVh5ML9P%2BvlHGBLdwIx8WdxplYFhx9%2FdFuxnOUTLzc0%2Bn2zaLM%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+ << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 799bb8cd4d71b130-ATL[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Wed, 15 Feb 2023 05:42:44 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< x-dns-prefetch-control: off
+<< strict-transport-security: max-age=15552000; includeSubDomains
+<< x-download-options: noopen
+<< x-content-type-options: nosniff
+<< x-xss-protection: 1; mode=block
+<< content-language: en
+<< etag: W/"5de-nIC6PX3cEGifOOBAdlSmcCVN9zA"
+<< vary: Accept-Encoding
+<< Content-Encoding: gzip
+<< last-modified: Mon, 05 Dec 2022 21:02:20 GMT
+<< x-cache-status: HIT
+<< x-frame-options: SAMEORIGIN
+<< access-control-allow-origin: *
+<< access-control-allow-credentials: true
+<< access-control-allow-methods: GET, POST, OPTIONS
+<< access-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+<< x-cache-key: GET/api/data?drilldowns=Nation&measures=Population
+<< Cache-Control: max-age=1800
+<< CF-Cache-Status: HIT
+<< Age: 98757
+<< Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wT8bIfmhk7Ttjw1tH2eLdQaovirN3LKjhi1GLf34JmIk%2FreD7dqjOfCKzwAcQxP%2BAqj6jARKUmVh5ML9P%2BvlHGBLdwIx8WdxplYFhx9%2FdFuxnOUTLzc0%2Bn2zaLM%3D"}],"group":"cf-nel","max_age":604800}
+<< NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+<< Server: cloudflare
+<< CF-RAY: 799bb8cd4d71b130-ATL
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "1e5[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5][0x94]M[0x8b][0xdb]0[0x10][0x86][0xff][0x8a][0xd0][0xa9][0x85]$[0x96]?[0xe4][0x8f][0xdc]v[0xb3]=[0xf4]R[\n]"
+ << "n[0xe]%[0x4][0xa3][0xd8]j"[0x1a]K[0xc6][0x92][0x12]L[0xc8][0xef][0xc8][0xf1]fM}[0xe8][0xa1]"
+ << "[0x18]_[0xa4][0x99]y[0xdf]y42[0xba][0xe1][0x8a][0x19][0x86][0xd7][0xbb][0x1b][0xfe][0xfa][0x86][0xbe]1#[0x94][0xc4]kL|B[0xc8]6[0xc7][0xb][0xfc][0xc]m[0xa5]0[0xbc]B[0xb9]a[0x86]kH@[0xf9]O[0xce]Z[0xbc][0xe]H@[0x16][0xf8][0xb1][0xc6]n[0x3][0xc9][0xef][0xaa][0xb1][0xe7]A[0x19][0x6]1[0x8d][0xb3][0x90][0xa4][0xb][0x9c][0x9f][0xed][0xf1][0xa3][0x89][0xed][0x1d][0x97][0xfa][0xe1]x_[0xfc][0xf][0x82][0x9f][0x8d][0x10][0xfc]l[0x82][0x10][0xc5]Y[0x92]dtV[0x84]t[0x8c][0x90]N[0x10][0x82][0x8c][0x84][0xf0][0xcd][0x8a][0x90][0x8c][0x11][0x92][0x9][0x2][0x98]E[0x11]IfE[0x88][0xc7][0x8][0xf1][0xdf][0x8]~Ji[0xea][0xc7][0xc1][0xac][0x8]t[0x8c]@'[0x8]1[0xf5])[0x9][0xfc]Y[0x11][0xa2]1B4A[0x88]|[0x92][0x90]4[0x9a][0x15]![0x1c]#[0x84][0x13][0x4][0x9f][0x86]1[0xcd][0xfe][0x85][0xb0]_`[0xad]l[[0xf2][0xfe][0x89][0xa8]9[0xd3][0xb6][0x85][0xf8]z7v[0x83]"&[0xa5]2[0xfd][0xe][0x92][0xb7]ASHV[0x83][0x10]o[0xb8][0xd4]V[0xa3]W[0x90]2[0x8b][0xdf][0x1d][0x8b][0x8a][0xeb][0xb2][0x15][0xcd][0xd0][0xf8][0xc7][0x89][0xa3][0x97][0x9a][0xb7][0xa2]d[0x12]mT];[0x92][0xe][0xe5][0xb6][0xbd][0xf0][0xe]}z[0xd9][0xe4][0x9f][0x91][0xd0][0xa8]T[0xb2][0xb2][0xa5];[0xf4][0xa1]C[0x6]4[0xdb][0x1c][\r][0xfe]LVHsi[0x90]Q[0x88][0xa1]F[0xb5][0xce][0x19][0xa9]_}Y[0xf3][0xc4]E[0xfc][0xc2][0xdb][0xe]u0[0x9b][0x15][0xc0][0xb8][0xf7]Os[0xf3][0xce][\n]"
+ << "}[0x10]][0xba]$[0xfa][0xa2][0x8d][0xa8]a[0xc][0xa3][0xa2][0xb3][0x90][0xbf][0xa1][0xe8]dL[0xb3][0xf6][0xbc][0xeb][0xf5][0xba]*[0xfb][0xde][0xab][0xa3][0xba]xM[0xab][0x8e]-[0xab][0xf5]R[0xf7][0xcc][0xda]c[0xa5][0xf6]@l[0xd8][0xe1][0xcc][0xb]Q[0x81][0xf0][0xd5][0xdd][0xa1][0xbb][0xb][0xa3][0x1a]QB[0xe0]M[0x0][0x8c][0x86][0x83][0xba][0xb1][0xd8][0xc3]3[0xcc]k[0xe7][0xd5][0x9c]D[0xe9][0xfe][0x3]<[0xc0][0x81]a[0xd1][0x1d][0xb][0x3][0xa3]>[0x17][0x1f]'*[0xe8]C[\r][0xbc][0xc6][0xe]w[0xb0][0xdb][0xdf][0xf7][0xf7]?F$:[0xc9][0xde][0x5][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7a0f244f
+Connection can be kept alive indefinitely
+Response Data is[{ID Nation=01000US, Nation=United States, ID Year=2020, Year=2020, Population=326569308, Slug Nation=united-states}, {ID Nation=01000US, Nation=United States, ID Year=2019, Year=2019, Population=324697795, Slug Nation=united-states}, {ID Nation=01000US, Nation=United States, ID Year=2018, Year=2018, Population=322903030, Slug Nation=united-states}, {ID Nation=01000US, Nation=United States, ID Year=2017, Year=2017, Population=321004407, Slug Nation=united-states}, {ID Nation=01000US, Nation=United States, ID Year=2016, Year=2016, Population=318558162, Slug Nation=united-states}, {ID Nation=01000US, Nation=United States, ID Year=2015, Year=2015, Population=316515021, Slug Nation=united-states}, {ID Nation=01000US, Nation=United States, ID Year=2014, Year=2014, Population=314107084, Slug Nation=united-states}, {ID Nation=01000US, Nation=United States, ID Year=2013, Year=2013, Population=311536594, Slug Nation=united-states}]
+Year details[2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013]
+Population details[326569308, 324697795, 322903030, 321004407, 318558162, 316515021, 314107084, 311536594]
+Year is present
+Population is present
